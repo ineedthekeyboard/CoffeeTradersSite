@@ -1,0 +1,17 @@
+.mdl-layout {
+  overflow:hidden;
+}
+.example-fill-remaining-space {
+  // This fills the remaining space, by using flexbox.
+  // Every toolbar row uses a flexbox row layout.
+  flex: 1 1 auto;
+}
+.mdl-button {
+  float:right;
+}
+.footer {
+  font-weight: 300;
+  font-size:1rem;
+  position: absolute;
+  bottom: 0px;
+}

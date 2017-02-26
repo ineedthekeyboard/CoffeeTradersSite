@@ -1,0 +1,19 @@
+body, html {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-weight:400;
+  background-color:#696969;
+}
+.dark-unicorn-theme  md-sidenav-container.dark, md-sidenav-container.dark {
+  background-color:#696969;
+}
+.example-fill-remaining-space {
+  // This fills the remaining space, by using flexbox.
+  // Every toolbar row uses a flexbox row layout.
+  flex: 1 1 auto;
+}
+
+
+@import 'dark-unicorn.scss';
+@import '~@angular/material/core/theming/prebuilt/deeppurple-amber.css';
